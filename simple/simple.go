@@ -13,7 +13,7 @@ var (
 	debug         = flag.Bool("debug", false, "enable debugging")
 	password      = flag.String("password", "123$%^qwe", "the database password")
 	port     *int = flag.Int("port", 1433, "the database port")
-	server        = flag.String("server", "dmpfra.vinceredev.com", "the database server")
+	server        = flag.String("server", "localhost", "the database server")
 	user          = flag.String("user", "sa", "the database user")
 )
 

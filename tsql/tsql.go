@@ -14,10 +14,10 @@ import (
 
 func main() {
 	var (
-		userid   = flag.String("U", "", "login_id")
-		password = flag.String("P", "", "password")
+		userid   = flag.String("U", "sa", "login_id")
+		password = flag.String("P", "123$%^qwe", "password")
 		server   = flag.String("S", "localhost", "server_name[\\instance_name]")
-		database = flag.String("d", "", "db_name")
+		database = flag.String("d", "testdb", "db_name")
 	)
 	flag.Parse()
 
